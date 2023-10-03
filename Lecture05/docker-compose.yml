@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: dias
+      POSTGRES_PASSWORD: smth
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
